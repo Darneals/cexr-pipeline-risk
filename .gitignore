@@ -1,0 +1,43 @@
+# ── Raw and processed data (too large, publicly available) ──
+data/
+
+# ── Generated figures (reproducible from scripts) ──
+figures/
+
+# ── Python cache ──
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Conda/virtual environments ──
+env/
+venv/
+.env
+*.conda
+
+# ── Node modules (frontend dependencies) ──
+phase9/frontend/node_modules/
+phase9/frontend/dist/
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor files ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logs ──
+*.log
+logs/

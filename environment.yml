@@ -1,0 +1,20 @@
+name: rim12
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=1.26
+  - pandas=2.1
+  - scipy=1.11
+  - matplotlib=3.8
+  - geopandas=0.14
+  - shapely=2.0
+  - fiona
+  - pyproj
+  - openpyxl
+  - pip:
+    - fastapi==0.104.1
+    - uvicorn[standard]==0.24.0
+    - python-multipart==0.0.6
