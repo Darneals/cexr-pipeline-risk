@@ -100,7 +100,7 @@ data/
 
 ### Step 1 — Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/icvars-pipeline-risk.git
+git clone https://github.com/Darneals/cexr-pipeline-risk.git
 cd icvars-pipeline-risk
 ```
 
