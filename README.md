@@ -1,25 +1,24 @@
-#  FDR-Validated Pipeline Risk Detection and Metaverse Visualisation
-
+# Geospatial Decision Support Framework for FDR-Validated Pipeline Risk Detection
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-> **Paper:** *A Metaverse-Enabled Spatial Decision Support System for FDR-Validated Pipeline Risk Hotspot Detection Across Multi-State Transmission Networks*
-> **Authors:** Daniel Tonye Oyefidein, Hitham Alhussian, Said Jadid Abdulkadir,Shamsuddeen Adamu,Afroza Afrin
+> **Paper:** *A Geospatial Decision Support Framework for FDR-Validated Pipeline Risk Hotspot Detection Across Multi-State Transmission Networks Using Immersive WebGL Visualisation*
+> **Authors:** Daniel Tonye Oyefidein, Hitham Alhussian, Said Jadid Abdulkadir, Shamsuddeen Adamu, Afroza Afrin
 > **Institution:** Universiti Teknologi PETRONAS, Malaysia
-> **Journal:** Computers & Education: X Reality (Elsevier)
+> **Repository:** https://github.com/Darneals/pipeline-risk-fdr
 
 ---
 
 ## Overview
 
-This repository contains all analysis scripts and the WebGL frontend for the ICVARS framework — a reproducible system for corridor-scale natural gas pipeline risk detection using publicly available federal data.
+This repository contains all analysis scripts and the WebGL frontend for a reproducible geospatial decision support framework for corridor-scale natural gas pipeline risk detection using publicly available federal data.
 
 The framework:
 - Constructs a **multivariate hazard score** from PHMSA incident attributes (cause type, consequence severity, asset vulnerability)
-- Applies a **corridor-level Benjamini–Hochberg FDR correction** that resolves the BH gap in national-scale pipeline corridor testing
+- Applies a **corridor-level Benjamini–Hochberg FDR correction** that resolves the BH multiplicity gap in national-scale pipeline corridor testing
 - Validates results across **three U.S. states** (Texas, Louisiana, Oklahoma) at two spatial resolutions (5 km and 10 km)
-- Renders FDR-validated risk corridors in a **WebGL metaverse environment** where 3D extrusion height is proportional to corridor z-score
+- Renders FDR-validated risk corridors in a **WebGL 3D immersive environment** where extrusion height maps exclusively to corridor z-score
 
-**Key results:** 267 FDR-significant risk corridors identified across 7,673 tested corridors at 5 km resolution. Mean SUS score of 76.67 across nine domain specialist evaluators.
+**Key results:** 267 FDR-significant risk corridors identified at 5 km resolution across TX, LA, and OK. Peak z-score 55.74 (Louisiana). Mean SUS 76.67 across nine domain specialist evaluators.
 
 ---
 
