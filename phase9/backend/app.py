@@ -7,7 +7,7 @@ import os
 
 from region_store import RegionStore
 
-DATA_ROOT = "../../data"
+DATA_ROOT = "data"
 
 app = FastAPI(title="Phase 9 Region API", version="1.0.0")
 
